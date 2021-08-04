@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompnay.app.MyFirstJunitTests" time="0.001" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/test-classes:/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/classes:/Users/daipeng/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/daipeng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/daipeng/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/daipeng/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib"/>
+    <property name="sun.java.command" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/surefire/surefirebooter7622226056729645264.jar /Users/daipeng/projects/learn-java/grpc-demo/my-app/target/surefire 2021-08-02T17-57-55_064-jvmRun1 surefire8431793528385171784tmp surefire_04603123385650159985tmp"/>
+    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="surefire.test.class.path" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/test-classes:/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/classes:/Users/daipeng/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/daipeng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/daipeng/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/daipeng/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/daipeng"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre"/>
+    <property name="basedir" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app/target/surefire/surefirebooter7622226056729645264.jar"/>
+    <property name="sun.boot.class.path" value="/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/resources.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/rt.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/sunrsasign.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/jsse.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/jce.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/charsets.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/jfr.jar:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="user.name" value="daipeng"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.endorsed.dirs" value="/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/daipeng/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/yz/9zqyty317954ntrrm5b8ts8c0000gn/T/"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="user.dir" value="/Users/daipeng/projects/learn-java/grpc-demo/my-app"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/daipeng/apps/hadoop-3.1.4/lib/native:/Users/daipeng/apps/hadoop-3.1.4/lib/native::/Users/daipeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.ext.dirs" value="/Users/daipeng/Library/Java/Extensions:/Users/daipeng/.sdkman/candidates/java/8.0.232.hs-adpt/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+  </properties>
+  <testcase name="evalExp" classname="com.mycompnay.app.MyFirstJunitTests" time="0">
+    <failure message="expected:&lt;7&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<7> but was:<6>
+	at com.mycompnay.app.MyFirstJunitTests.evalExp(MyFirstJunitTests.java:15)
+]]></failure>
+  </testcase>
+</testsuite>

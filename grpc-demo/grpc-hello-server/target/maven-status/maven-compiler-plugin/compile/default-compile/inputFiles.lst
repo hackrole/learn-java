@@ -1,0 +1,3 @@
+/Users/daipeng/projects/learn-java/grpc-demo/grpc-hello-server/target/generated-sources/protobuf/java/com/example/grpc/GreetingServiceOuterClass.java
+/Users/daipeng/projects/learn-java/grpc-demo/grpc-hello-server/src/main/java/com/example/grpc/App.java
+/Users/daipeng/projects/learn-java/grpc-demo/grpc-hello-server/target/generated-sources/protobuf/grpc-java/com/example/grpc/GreetingServiceGrpc.java

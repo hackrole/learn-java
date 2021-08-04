@@ -1,0 +1,12 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>mycompany-repository</id>
+            <username>jvanzyl</username>
+            <!-- Default value is ~/.ssh/id_dsa -->
+            <privateKey>/path/to/identity</privateKey> (default is ~/.ssh/id_dsa)
+            <passphrase>my_key_passphrase</passphrase>
+        </server>
+    </servers>
+</settings>
